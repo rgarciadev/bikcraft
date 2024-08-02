@@ -2,7 +2,6 @@
    background: var(--color-c12);
 }
 .header{
-
    display: flex;
    flex-wrap: wrap;
    padding: 20px;
