@@ -1,4 +1,18 @@
-@import "variables.css";
-@import "header.css";
-@import "global.css";
-@import "intro.css";
+/* Globais */
+@import "./utilities/typography.css";
+@import "./global/variables.css";
+@import "./global/global.css";
+@import "./global/header.css";
+/* Intro */
+@import "./intro/intro.css";
+
+/* Componente */
+@import "./components/btn.css";
+@import "./components/container.css";
+
+/* Bycicles */
+@import "./bicycle/bicycle-list.css";
+
+/* home */
+
+@import "./tech/tech.css";
