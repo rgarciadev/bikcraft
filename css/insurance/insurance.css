@@ -1,0 +1,33 @@
+.insurance-bg {
+  background: var(--color-c11);
+  padding: 0px;
+  margin: 0 auto;
+  padding-bottom: 120px;
+}
+.insurance-bg h2 {
+  padding-top: 20px;
+  margin: 0px;
+}
+.insurance-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.insurance-list-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: var(--color-c12);
+  padding: 40px 20px;
+  border-radius: 4px;
+}
+
+.insurance-list-item li {
+  margin-bottom: 10px;
+}
+
+.insurance-list-item span {
+  margin: 0px;
+  display: block;
+  text-align: right;
+}

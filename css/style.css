@@ -16,3 +16,6 @@
 /* home */
 
 @import "./tech/tech.css";
+@import "./partners/partners.css";
+@import "./statement/statement.css";
+@import "./insurance/insurance.css";
