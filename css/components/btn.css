@@ -17,6 +17,15 @@
   background: linear-gradient(var(--color-p1), var(--color-p3));
 }
 
+.btn.second {
+  color: var(--color-c4);
+  background: var(--color-c10);
+}
+
+.btn.second:hover {
+  background: var(--color-c11);
+}
+
 .link {
   font: 500 2rem/1.5 "Poppins", sans-serif;
   position: relative;
