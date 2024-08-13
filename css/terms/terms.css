@@ -1,0 +1,30 @@
+.title-bg {
+  background: var(--color-c11);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-bottom: 60px;
+}
+
+.title h1 {
+  padding: 0px;
+  margin: 0px;
+}
+
+.terms {
+  padding-bottom: 60px;
+  margin-bottom: 60px;
+}
+
+.terms h2 {
+  margin-bottom: 20px;
+}
+.terms p + h2 {
+  margin-top: 40px;
+}
+
+@media (max-width: 800px) {
+  .title-bg {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
