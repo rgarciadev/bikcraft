@@ -1,0 +1,50 @@
+.insurance-bg {
+  background: var(--color-c12);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.insurance-bg h1 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.insurance-chart {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding-top: 60px;
+  margin-bottom: 60px;
+}
+.insurance-chart li {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+@media (max-width: 1200px) {
+  .insurance-bg h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .insurance-chart {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .insurance-chart {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .insurance-bg {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  .insurance-bg h1 {
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+}
