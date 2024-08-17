@@ -1,0 +1,146 @@
+.bike{
+   padding-top: 40px;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 20px;
+   /* align-items: center; */
+}
+
+.bike-item-img{
+   align-self: start;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+}
+
+.bike-item-img img{
+
+   flex: 1;
+   min-width: 200px;
+}
+
+.bike-item-img img:first-child{
+   min-width: 100%
+}
+
+.bike-content p{
+   margin-bottom: 20px;
+}
+
+
+.bike-buy{
+   display: grid;
+   grid-template-columns: max-content auto;
+   align-items: center;
+   justify-items: start;
+   gap: 8px 12px;
+   margin-bottom: 40px;;
+}
+
+.bike-buy a{
+   grid-row: span 2;
+   margin: 0px;
+}
+
+.bike-buy span{
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   background: var(--color-c12);
+   padding: 4px 8px;
+   border-radius: 4px;
+}
+
+
+.bike-content h2{
+   text-transform: uppercase;
+   letter-spacing: 0.015em;
+   margin-bottom: 12px;
+}
+
+
+
+.bike-item-bg{
+   background: var(--color-c12);
+   padding: 32px;
+   border-radius: 5px;
+}
+
+
+.bike-item-info{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 20px;
+   margin-bottom: 40px;
+}
+
+.bike-item-info img{
+   max-width: 24px;
+   margin-bottom: 12px;
+}
+.bike-item-info h3{
+   margin-bottom: 12px;
+}
+
+.bike-item-ficha{
+   display: grid;
+   grid-template-columns: 1fr;
+}
+.bike-item-ficha li p{
+   margin-bottom: 0px;
+}
+
+.bike-item-ficha li{
+   display: flex;
+   justify-content: space-between;
+   padding: 4px 0px;
+   border-bottom: 1px solid var(--color-c11);
+}
+
+.bike-item-ficha li:last-child{
+   border: none;
+}
+
+.bike-insurance-bg{
+   background: var(--color-c12);
+   box-shadow: inset 0px 60px var(--color-w), inset 0px -60px var(--color-c12);
+}
+
+.bike-insurance{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 20px;
+   padding: 32px;
+}
+.bike-insurance-img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   object-position: left;
+}
+
+.bike-insurance-content{
+   background: var(--color-c11);
+}
+
+
+@media (max-width: 800px){
+   .bike{
+      grid-template-columns: 1fr;
+      padding-top: 40px;
+      padding-bottom: 40px;
+   }
+   .bike-item-img{
+      grid-row: 2;
+   }
+}
+
+
+@media (max-width: 400px){
+   .bike-item-info{
+      grid-template-columns: 1fr;
+   }
+   .bike-buy{
+      grid-template-columns: 1fr;
+   }
+}
