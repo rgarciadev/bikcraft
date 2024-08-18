@@ -9,6 +9,7 @@
 /* Componente */
 @import "./components/btn.css";
 @import "./components/container.css";
+@import "./utilities/form.css";
 
 /* Bycicles */
 @import "./bicycle/bicycle-list.css";
@@ -24,4 +25,6 @@
 @import "./terms/terms.css";
 @import "./bicycle/bicycle-page.css";
 @import "./insurance/insurance-page.css";
-@import "./bicycle/bicycle-item.css"
+@import "./bicycle/bicycle-item.css";
+@import "./insurance/bike-insurance.css";
+@import "./contact/contact.css";
