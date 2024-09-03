@@ -22,7 +22,39 @@
    display: grid;
    grid-template-columns: 1fr 1fr;
    gap: 32px 16px;
+   padding: 32px;
 }
 .store-content h3, .store-content p{
    grid-column: 1 / -1;
+}
+.store-info{
+   display: grid;
+   gap: 8px;
+   border-left: 2px solid var(--color-c2);
+   padding-left: 12px;
+}
+.store-worktime{
+   display: flex;
+   gap: 8px;
+   align-items: center;
+}
+
+@media(max-width: 800px){
+   .stores{
+      gap: 20px;
+      padding-top: 60px;
+      padding-bottom: 60px;
+   }
+   .stores h2{
+      margin-bottom: 32px;
+   }
+   .store-content{
+      grid-template-columns: 1fr;
+   }
+}
+
+@media(max-width: 600px){
+   .stores{
+      grid-template-columns: 1fr;
+   }
 }
